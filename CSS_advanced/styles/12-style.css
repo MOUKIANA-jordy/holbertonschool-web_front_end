@@ -33,7 +33,10 @@ a{
 .section-title{
 	font-family: var(font-family-title);
 	font-size: var(font-size-xx-large);
-	font-wei
+	font-size: var(--font-size-xx-large);
+  	margin: var(--section-title-margin);
+  	color: var(--section-title-color);
+	
 
 .section-tagline{
 	color: var(--color-primary);
@@ -46,9 +49,6 @@ a{
 h1 h2 h3 h4 h5 h6{
 	font-family: var(--font-family-title);
   font-weight: var(--font-weight-bold);
-  font-size: var(--font-size-xx-large);
-  margin: var(--section-title-margin);
-  color: var(--section-title-color);
 }
 
 :root {
