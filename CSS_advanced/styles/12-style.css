@@ -47,8 +47,8 @@ h1 h2 h3 h4 h5 h6{
 	font-family: var(--font-family-title);
   font-weight: var(--font-weight-bold);
   font-size: var(--font-size-xx-large);
-  --section-title-margin: margin;
-  --section-title-color: color;
+  margin: var(--section-title-margin);
+  color: var(--section-title-color);
 }
 
 :root {
@@ -74,6 +74,4 @@ h1 h2 h3 h4 h5 h6{
   --section-tagline-transform: uppercase;
   --section-title-margin: 0;
   --section-title-color: color-black;
-  --section-title-margin: margin;
-  --section-title-color: color;
 }
