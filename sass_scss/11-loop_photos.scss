@@ -3,6 +3,9 @@
 //Define the list of names
 $list-names: julien john sam damian;
 
+//Import the list of names
+@import '11-photos';
+
 //Loop through the list and create a class for each name
 @each $name in $list-names {
   .photo-#{$name} {
