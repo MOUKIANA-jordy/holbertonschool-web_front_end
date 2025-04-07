@@ -1,6 +1,6 @@
 // 10-import_colors.scss
 
-@import '10-colors.scss';
+@import '10-colors';
 
 .red {
 	color: $red;
@@ -11,5 +11,5 @@
 }
 
 .bleu {
-	color: $bleu;
+	color: $blue;
 }
