@@ -1,0 +1,12 @@
+//11-loop_photos.scss
+
+//Define the list of names
+$list-names: julien john sam damian;
+
+//Loop through the list and create a class for each name
+@each $name in $list-names {
+  .photo-#{$name} {
+    background: image-url("photos/#{$name}.jpg") no-repeat;
+  }
+}
+
