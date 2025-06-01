@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <title>Holberton - Web Stack - Bootstrap</title>
+    <meta name="description" content="Bootstrap is a free and open-source CSS framework">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  </head>
+  <body>
+
+    <!-- Small title visible on small screens only -->
+    <h1 class="d-block d-md-none">Small title</h1>
+
+    <!-- Big title visible on medium and up -->
+    <h1 class="d-none d-md-block">Big title</h1>
+
+    <!-- Main container -->
+    <div class="container bg-info p-3 border border-info rounded">
+      
+      <div class="d-flex flex-column flex-md-row text-light">
+        
+        <!-- Left -->
+        <div class="p-3 border-bottom border-right border-light text-left w-100 w-md-25">
+          Left
+        </div>
+
+        <!-- Middle (hidden on small screens) -->
+        <div class="p-3 border-bottom border-right border-left border-light shadow text-center w-100 w-md-50 d-none d-md-block">
+          Middle
+        </div>
+
+        <!-- Right -->
+        <div class="p-3 border-bottom border-left border-light text-right w-100 w-md-25">
+          Right
+        </div>
+
+      </div>
+    </div>
+
+  </body>
+</html>
