@@ -1,46 +1,64 @@
-/* Bouton principal */
 .btn-primary {
-  background-color: #E0003C;
-  border-color: #E0003C;
+  color: #ffffff;
+  background-color: #e0003c;
+  border-color: #e0003c;
 }
 
 .btn-primary:hover,
 .btn-primary:focus,
-.btn-primary:active {
-  background-color: #BC1340;
-  border-color: #BC1340;
+.btn-primary:active,
+.btn-primary:not(:disabled):not(.disabled):active {
+  color: #ffffff;
+  background-color: #bc1340;
+  border-color: #bc1340;
 }
 
-/* Bouton outline */
+.btn-primary:focus,
+.btn-primary.focus,
+.btn-primary:not(:disabled):not(.disabled):active:focus {
+  box-shadow: 0 0 0 0.2rem rgba(188, 19, 64, 0.5);
+}
+
 .btn-outline-primary {
-  color: #E0003C;
-  border-color: #E0003C;
+  color: #e0003c;
+  background-color: transparent;
+  border-color: #e0003c;
 }
 
 .btn-outline-primary:hover,
 .btn-outline-primary:focus,
-.btn-outline-primary:active {
-  color: #fff;
-  background-color: #E0003C;
-  border-color: #E0003C;
+.btn-outline-primary:active,
+.btn-outline-primary:not(:disabled):not(.disabled):active {
+  color: #ffffff;
+  background-color: #e0003c;
+  border-color: #e0003c;
 }
 
-/* Liens */
+.btn-outline-primary:focus,
+.btn-outline-primary.focus,
+.btn-outline-primary:not(:disabled):not(.disabled):active:focus {
+  box-shadow: 0 0 0 0.2rem rgba(224, 0, 60, 0.5);
+}
+
 a,
 a:hover,
-a:focus {
-  color: #E0003C;
+a:focus,
+a.text-dark,
+a.text-dark:hover,
+a.text-dark:focus,
+a.text-muted,
+a.text-muted:hover,
+a.text-muted:focus {
+  color: #e0003c !important;
 }
 
-/* Carte */
 .card,
 .card-header,
 .card-footer {
-  border-color: #E0003C;
+  border-color: #e0003c;
   border-radius: 1rem;
 }
 
-/* Texte muted */
 .text-muted {
-  color: #8C8C8C !important;
+  color: #8c8c8c !important;
 }
